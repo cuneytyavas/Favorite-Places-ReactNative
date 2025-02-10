@@ -23,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "In order to take photo of yor favorite places please allow Camera access."
+        }
+      ],
+      "expo-sqlite"
+    ]
   }
 }
